@@ -1,15 +1,41 @@
-{
-  "name": "object-inspect",
-  "version": "1.2.1",
-  "description": "string representations of objects in node and the browser",
+{ "name": "inspectobj-pmb",
+  "version": "0.0.1",
+  "description": "Another flavor of string representations of objects in node and browsers, similar to Node's util.inspect.",
+  "keywords": [
+    "inspect",
+    "object",
+    "stringify",
+    "util.inspect"
+  ],
+
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+
+  "forked-from": "substack/object-inspect@1.2.1",
+
+  "homepage": "https://github.com/mk-pmb/inspectobj-pmb-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/inspectobj-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/inspectobj-pmb-js/issues"
+  },
+
+  "config": { "for_details": "see npm-config2env-datatypes-demo" },
+
+  "private": true, "license": "MIT",
+
   "main": "index.js",
-  "devDependencies": {
-    "tape": "^4.6.2"
-  },
-  "scripts": {
-    "test": "npm run tests-only",
-    "tests-only": "tape test/*.js"
-  },
+  "scripts": { "test": "tape test/*.js" },
+  "directories": { "test": "test" },
+
+  "dependencies": {},
+  "devDependencies": { "tape": "^4.6.2" },
+
   "testling": {
     "files": [
       "test/*.js",
@@ -26,22 +52,7 @@
       "android/latest"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/substack/object-inspect.git"
-  },
-  "homepage": "https://github.com/substack/object-inspect",
-  "keywords": [
-    "inspect",
-    "util.inspect",
-    "object",
-    "stringify",
-    "pretty"
-  ],
-  "author": {
-    "name": "James Halliday",
-    "email": "mail@substack.net",
-    "url": "http://substack.net"
-  },
-  "license": "MIT"
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
 }
